@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BrewFilter</string>
+    <string name="make_coffee">Připravte kávu s Hario V60</string>
+    <string name="more_information">Další informace</string>
+    <string name="how_much_coffee_do_i_need">Kolik kávy potřebuji?</string>
+    <string name="how_much_water_do_i_need">Kolik vody potřebuji?</string>
+    <string name="textview">Zvolte první možnost, pokud chcete použít dané množství vody a potřebujete vědět, kolik kávy máte použít. Zvolte druhou možnost, pokud víte, kolik kávy máte k dispozici, a chcete vědět, kolik vody máte použít.</string>
+    <string name="info">Zvolte první možnost, pokud chcete použít dané množství vody a potřebujete vědět, kolik kávy máte použít. Zvolte druhou možnost, pokud víte, kolik kávy máte k dispozici, a chcete vědět, kolik vody máte použít.</string>
+    <string name="how_much_water_do_you_want_to_use_in_ml">Kolik vody chcete použít (v ml)?</string>
+    <string name="water_in_ml">voda (v ml)</string>
+    <string name="choose_the_intensity_of_the_coffee">Zvolte požadovanou intenzitu kávy:</string>
+    <string name="mild">Jemná</string>
+    <string name="standard">Standardní</string>
+    <string name="strong">Silná</string>
+    <string name="your_result_will_show_here">Zde bude váš výsledek</string>
+    <string name="how_much_coffee_do_you_want_to_use_in_g">Kolik kávy chcete použít (v g)?</string>
+    <string name="coffee_in_g">káva (v g)</string>
+    <string name="missing_value">Zadejte prosím množství.</string>
+</resources>
