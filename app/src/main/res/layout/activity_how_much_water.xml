@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".HowMuchCoffee">
+    tools:context=".HowMuchWater">
 
     <EditText
         android:id="@+id/volume"
@@ -68,7 +68,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:onClick="calculateMildCoffee"
+        android:onClick="onClickCalculateMildCoffeeW"
         android:text="@string/mild"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.123"
@@ -84,7 +84,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:onClick="calculateStandardCoffee"
+        android:onClick="onClickCalculateStandardCoffeeW"
         android:text="@string/standard"
         app:layout_constraintEnd_toStartOf="@+id/strongButton"
         app:layout_constraintStart_toEndOf="@+id/mildButton"
@@ -99,7 +99,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="36dp"
         android:layout_marginRight="36dp"
-        android:onClick="calculateStrongCoffee"
+        android:onClick="onClickCalculateStrongCoffeeW"
         android:text="@string/strong"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/standardButton"

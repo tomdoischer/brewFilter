@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    // only button on click methods
     public void openCoffeeView(View v){
         startActivity(new Intent(MainActivity.this, HowMuchCoffee.class));
     }

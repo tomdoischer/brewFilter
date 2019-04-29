@@ -14,36 +14,22 @@ public class HowMuchCoffee extends AppCompatActivity {
         setContentView(R.layout.activity_how_much_coffee);
     }
 
-    public void calculateMildCoffee(View v) {
+    public void onClickCalculateMildCoffee(View v) {
         int ratio = 18;
-        try {
-            EditText txtname = (EditText)findViewById(R.id.volume);
-            int water = Integer.parseInt(txtname.getText().toString());
-            int result = water/ratio;
-            TextView resultCoffee =(TextView)findViewById(R.id.coffeeResult);
-            resultCoffee.setText(result + " g");
-        } catch (NumberFormatException e) {
-            TextView resultCoffee =(TextView)findViewById(R.id.coffeeResult);
-            resultCoffee.setText(R.string.missing_value);
-        }
+        calculateCoffee(v, ratio);
     }
 
-    public void calculateStandardCoffee(View v) {
+    public void onClickCalculateStandardCoffee(View v) {
         int ratio = 13;
-        try {
-            EditText txtname = (EditText)findViewById(R.id.volume);
-            int water = Integer.parseInt(txtname.getText().toString());
-            int result = water/ratio;
-            TextView resultCoffee =(TextView)findViewById(R.id.coffeeResult);
-            resultCoffee.setText(result + " g");
-        } catch (NumberFormatException e) {
-            TextView resultCoffee =(TextView)findViewById(R.id.coffeeResult);
-            resultCoffee.setText(R.string.missing_value);
-        }
+        calculateCoffee(v, ratio);
     }
 
-    public void calculateStrongCoffee(View v) {
+    public void onClickCalculateStrongCoffee(View v) {
         int ratio = 8;
+        calculateCoffee(v, ratio);
+    }
+
+    public void calculateCoffee(View v, int ratio) {
         try {
             EditText txtname = (EditText)findViewById(R.id.volume);
             int water = Integer.parseInt(txtname.getText().toString());
